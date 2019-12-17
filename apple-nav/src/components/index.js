@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import './index.css';
+
 const WrapperDiv = styled.div`
   display: flex;
   flex-flow: row wrap;
@@ -14,8 +16,10 @@ const H1 = styled.h1`
   font-family: Fira Code, monospace;
   letter-spacing: .2rem;
 `
-const Button = styled.button`
+const Button = styled.div`
     display: flex;
+    justify-content: space-between;
+    align-items: center
     padding: .2rem 1.5rem;
     letter-spacing: .1rem
     font-size: .8rem;
